@@ -1,0 +1,583 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+          "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+
+  <title>Cheng Gong (龚成)</title>
+
+  <meta name="generator" content="emacs">
+
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+  <style type="text/css">
+    body { font-size: 19px; font-family: 'Trebuchet MS', sans-serif;}
+
+    a:link {
+	text-decoration: none;
+	color: green;
+    }
+
+    a:visited {
+	text-decoration: none;
+	color: green;
+    }
+    
+    a:hover {
+	text-decoration: underline;
+	color: green;
+    }
+    
+    a:active {
+	text-decoration: underline;
+	color: green;
+    }
+
+    /* Style the tab */
+    .tab {
+	overflow: hidden;
+	border: none;
+	background-color: #f1f1f1;
+    }
+
+    /* Style the buttons inside the tab */
+    .tab button {
+	background-color: inherit;
+	float: left;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	padding: 14px 16px;
+	transition: 0.3s;
+	font-size: 19px;
+    }
+
+    /* Change background color of buttons on hover */
+    .tab button:hover {
+	background-color: #ddd;
+	border-bottom: 5px solid MediumSeaGreen;
+    }
+
+    /* Create an active/current tablink class */
+    .tab button.active {
+	background-color: #ccc;
+	border-bottom: 5px solid green;
+    }
+
+    /* Style the tab content */
+    .tabcontent {
+	display: none;
+	padding: 6px 12px;
+	border: none;
+	border-top: none;
+    }
+
+    li{
+	margin: 8px 0;
+    }
+
+    .divpatch {
+	display: inline-block;
+	*display: inline;
+	zoom: 1;
+	vertical-align: top;
+	font-size: 19px;
+	width: 800px;
+	padding: 12px;
+	margin: 10px;
+	box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
+
+    .illu {
+	float: right;
+    }
+
+  </style>
+
+  <script type="text/javascript">
+    function showStuff(id) {
+    document.getElementById(id).style.display = 'block';
+    }
+    
+    function hideStuff(id) {
+    document.getElementById(id).style.display = 'none';
+    }
+
+    function openTab(evt, cityName) {
+	var i, tabcontent, tablinks;
+	tabcontent = document.getElementsByClassName("tabcontent");
+	for (i = 0; i < tabcontent.length; i++) {
+	    tabcontent[i].style.display = "none";
+	}
+	tablinks = document.getElementsByClassName("tablinks");
+	for (i = 0; i < tablinks.length; i++) {
+	    tablinks[i].className = tablinks[i].className.replace(" active", "");
+	}
+	document.getElementById(cityName).style.display = "block";
+	evt.currentTarget.className += " active";
+    }
+
+    document.addEventListener("DOMContentLoaded", function(event) { 
+	document.getElementById("hometab").click();
+    });
+  </script>
+
+  <link rel="shortcut icon" href="rg.ico" type="image/x-icon" />
+
+</head>
+
+<body bgcolor="#DDDDDD">
+<table align="center" width="98%" cellspacing="0" cellpadding="0" border="0" bgcolor="#FFFFFF">
+<tr><td bgcolor="green" height="5"></td></tr>
+<tr>
+<td>
+  <table cellspacing="25" cellpadding="0" border="0" align="center" width="100%"><tr><td>
+  <table>
+    <tr>
+      <td valign="top"><img src="gongcheng-W.png" width="219" height="250" alt="Rui Tan"></td>
+      <td>      </td>
+      <td valign="top">
+	<h1>Cheng Gong</h1>
+	<b>Assistant Researcher & Postdoctoral Fellow</b><br>
+	Nankai University, Tianjin, China<br>
+	<!-- Nanyang Technological University<br><br> -->
+	<pre style="border: 0;padding: 0;margin: 0;">
+E-mail:  <a href="mailto:cheng-gong@nankai.edu.cn" target="_blank">cheng-gong@nankai.edu.cn</a>
+Address: 38 Tongyan Road, Jinnan District, Tianjin, China 300350
+Phone: +86 156-2062-5044
+<a href="https://github.com/GongCheng1919" target="_blank">Github</a> | <a href="https://scholar.google.com/citations?user=SOUobmQAAAAJ&hl=en" target="_blank">GoogleScholar</a> | <a href="https://www.researchgate.net/profile/Cheng-Gong-46" target="_blank">ResearchGate</a> | <a href="https://dblp.org/pid/18/8478" target="_blank">DBLP</a> | <a href="https://orcid.org/0000-0002-6594-8375" target="_blank">ORCID</a> | <a href="https://www.semanticscholar.org/author/Cheng-Gong/2057185367" target="_blank">SemanticScholar</a>
+	</pre>
+      </td>
+    </tr>
+  </table>
+
+  <div class="tab">
+    <button id="hometab" class="tablinks" onclick="openTab(event, 'Home')">Home</button>
+    <!-- <button class="tablinks" onclick="openTab(event, 'Research')">Research</button> -->
+    <button class="tablinks" onclick="openTab(event, 'Publication')">Publication</button>    
+    <button class="tablinks" onclick="openTab(event, 'Funding')">Funding</button>
+    <!-- <button class="tablinks" onclick="openTab(event, 'Members')">Members</button> -->
+    <button class="tablinks" onclick="openTab(event, 'Teaching')">Teaching</button>
+    <button class="tablinks" onclick="openTab(event, 'Services')">Services</button>
+    <!-- <button class="tablinks" onclick="openTab(event, 'Publicity')">Publicity</button>
+    <button class="tablinks" onclick="openTab(event, 'Projects')">Projects</button>
+    <button class="tablinks" onclick="openTab(event, 'Misc')">Misc</button> -->
+  </div>
+<!--
+<p>
+  I am currently a Research Scientist at <a href="http://www.adsc.illinois.edu/" target="_blank">Advanced Digital Sciences Center (ADSC)</a>
+</p>
+-->
+
+<!--<p>
+I'm currently a visiting professor in Department of Computer Science and Engineering at Michigan State University.-->
+<!--(Detailed biography <a href="biography.html">HTML</a>, <a href="resume2.pdf">PDF</a>.)</p>-->
+
+<!--
+<p>
+<i><font color="#FF0000"><b>News:</b></font> Multiple research positions on sensor networks, cyber-physical systems, and security are available at ADSC. [<a href="positions.html">details</a>]</i></p>-->
+
+<div id="Home" class="tabcontent">
+  <!-- <p>
+    I am an Assistant Research also Postdoctoral Fellow at the College of Softwarem Nankai University.
+  </p> -->
+    <!-- <p>
+    Currently, I am working with <a href="https://www.comp.nus.edu.sg/~hebs/" target="_blank">Prof. Bingsheng He</a> and <a href="https://www.comp.nus.edu.sg/~wongwf/" target="_blank">Prof. Weng-Fai Wong</a> at the NUS on quite some interesting projects.
+  </p> -->
+
+  <!--<p><font color="red">We are hiring!</font> Our group has research positions available regularly. We invite motivated researchers to apply. Recent position posts:
+    <ul>
+      <li>[08/2023] 8 research positions (postdocs, engineers) and 2 PhD scholarships in the topic of robust AI for autonomous driving perception are immediately available. <a href="robustAI.html">Check out the details.</a></li>-->
+    <!--</ul>
+  </p>-->
+
+  <br>
+
+  <h2><font color="green">Research interests</font></h2>
+  <ul>
+    <li>Neural network compression: large DNN model quantization and sparing</li>
+    <li>Efficient neural network inference: multi-exit network training and early-exit inference</li>
+    <li>Heterogeneous computing: model acceleration on edge devices</li>
+  </ul>
+
+  <br>
+  <h2><font color="green">Awards and commendables</font></h2>
+  <ol>
+    <li><b></b>2023 Excellent Doctoral Dissertation Award, Tianjin Chapter, ACM China</b></li>
+    <li><b>2021 Second Prize Scholarship, Nankai University</b></li>
+    <li><b>2020 Second Prize Scholarship, Nankai University</b></li>
+    <li><b>2019 First Prize Scholarship, Nankai University</b></li>
+    <li><b>2015 National Encouragement Scholarship for Undergraduate Students, Nankai University</b></li>
+    <li><b>2014 Hezhan Incentive Scholarship for Undergraduate Students, Nankai University</b></li>
+  </ol>
+
+  
+  
+<!--
+<ul>  
+  <li>Past research topics:
+    <ul>
+      <li>Resilience of demand response</li>
+    </ul>
+  </li>
+</ul>-->
+
+<!--
+<ul>
+  <li><b>Resilience</b> of cyber-physical systems
+    <ul>
+      <li>Resilient CPS/IoT system functions</li>
+    </ul>
+  </li>  
+</ul>
+-->
+
+<br>
+<h2><font color="green">Education</font></h2>
+<ul>  
+  <li><b>PhD</b> (2016 - 2022) in Nankai University, Tianjin, China</li>
+  <li><b>BS</b> (2012 - 2016) in Nankai University, Tianjin, China</li>
+</ul>
+
+<br>
+<h2><font color="green">Employments</font></h2>
+<ul>
+  <li>College of Software, Nankai University, Tianjin, China
+    <ul>
+      <li>Assistant Researcher & Postdoctoral Fellow (July 2022 - Present)</li>
+    </ul>
+  </li>
+</ul>
+</div>
+
+<div id="Publication" class="tabcontent">
+  <h2><font color="green">Publications</font> <br></h2>
+  <!-- <u>Names underlined</u> are students, research staff, visiting students who worked directly with me in my group for the publication. -->
+  <ol>
+    <li><b>[CAAI AIR'24]</b> <u><b>Cheng Gong</b></u>, Haoshuai Zheng, Mengting Hu, Zheng Lin, Deng-Ping Fan, Yuzhi Zhang, and Tao Li. Minimize quantization output error with bias compensation. (Minor revision in progress)</li>
+    <li><b>[ECCV'24]</b> <u><b>Cheng Gong</b></u>, Yao Chen, Qiuyang Luo, Ye Lu, Tao Li, Yuzhi Zhang, Yufei Sun, and Le Zhang. Deep Feature Surgery: Towards Accurate and Efficient Multi-Exit Networks. (Under review)</li>
+    <li><b>[JCST'24]</b> <u><b>Cheng Gong</b></u>, Ye Lu, Su-Rong Dai, Qian Deng, Cheng-Kun Du, and Tao Li. AutoQNN: An End-to-End Framework for Automatically Quantizing Neural Networks.</li>
+    <li><b>[TPDS'22]</b> <u><b>Cheng Gong</b></u>, Ye Lu, Kunpeng Xie, Zongming Jin, Tao Li, and Yanzhi Wang. Elastic Significant Bit Quantization and Acceleration for Deep Neural Networks.</li>
+    <li><b>[TC'21]</b> <u><b>Cheng Gong</b></u>, Yao Chen, Ye Lu, Tao Li, Cong Hao, and Deming Chen. VecQ: Minimal Loss DNN Model Compression With Vectorized Weight Quantization.</li>
+    <li><b>[Journal of Software'21]</b> <u><b>Cheng Gong</b></u>, Ye Lu, Surong Dai, Fangxin Liu, Xinwei Chen, and Tao Li. Ultra-low loss quantization method for deep neural network compression.</li>
+    <li><b>[Information Science'21]</b> <u><b>Cheng Gong</b></u>, Ye Lu, Chunying Song, Tao Li, and Kai Wang. OSN: Onion-ring support neighbors for correspondence selection.</li>
+    <li><b>[Communications of the CCF'21]</b> Ye Lu, <u><b>Cheng Gong</b></u>, and Tao Li. Challenges and opportunities in automatic compression of deep neural network.</li>
+    <li><b>[IJCNN'19]</b> <u><b>Cheng Gong</b></u>, Tao Li, Ye Lu, Cong Hao, Xiaofan Zhang, Deming Chen, and Yao Chen. $\mu$L2Q: An Ultra-Low Loss Quantization Method for DNN Compression.</li>
+    <li><b>[ISVLSI'19]</b> Yao Chen, Kai Zhang, <u><b>Cheng Gong</b></u>, Cong Hao, Xiaofan Zhang, Tao Li, and Deming Chen. T-DLA: An Open-source Deep Learning Accelerator for Ternarized DNN Models on Embedded FPGA.</li>
+    <li><b>[ICPADS'19]</b> Fangxin Liu, Kunpeng Xie, <u><b>Cheng Gong</b></u>, Shusheng Liu, Ye Lu, and Tao Li. LHC: A Low-Power Heterogeneous Computing Method on Neural Network Accelerator.</li>
+    <li><b>[IJCAI'18]</b> Deng-Ping Fan, <u><b>Cheng Gong</b></u>, Yang Cao, Bo Ren, Ming-Ming Cheng, and Ali Borji. Enhanced-alignment Measure for Binary Foreground Map Evaluation.</li>
+</ol>
+
+  <h2><font color="green">Technical reports</font><br></h2>
+  <ol>
+    <!-- <li>Duc Van Le, Yingbo Liu; Rongrong Wang; Rui Tan. <a href="https://hdl.handle.net/10356/137780" target="_blank">Tropical Data Centre Proof-of-Concept</a>. Technical Report, Nanyang Technological University, 2019.</li> -->
+    <li>Quantization Methods for Deep Neural Networks. CF Chips Conference - Session of Outstanding Young Scholars in Computer Architecture, Nanjing, China, 2022.</li>
+    <li>An Ultra Low-Loss Deep Neural Network Quantization Method. The 18th China Computer Federation Embedded System Technology Conference, CCF ESTC 2020, Chengdu, China, 2020.</li>
+    <li>μl2Q: An Ultra Low Loss Quantization Method for DNN Compression. The 2019 International Joint Conference on Neural Networks, IJCNN. Budapest, Hungary, 2019. </li>
+  </ol>
+
+  <!-- <h2><font color="green">Data/Code</font><br></h2>
+  Please cite the paper given below if a data/code release is used in your research.
+  <ol>
+    <li><b>FedCFC</b> [<a href="https://github.com/hhhddyy/FedCFC">code</a>] [<a href="https://tanrui.github.io/pub/FedCFC.pdf">paper</a>]</li>
+  </ol> -->
+  
+  <h2><font color="green">Patents & Software License</font></h2>
+<ol>
+  <!-- <li><b>Method and System for Carrying Out Timing Related Tasks.</b><br> Inventors (ordered alphabetically): Yang Li, Rui Tan, Sreejaya Viswanathan, David Yau.<br>
+    US Patent 16464264 (applied in May 2019; granted in Oct 2020).
+  </li> -->
+  <li>Multi-Classifier Neural NetworkOptimization via Feature Rerouting. Cheng Gong, Tao Li, and Ye L. patent No. CN202210507772.9.</li>
+  <li>Elastic Significant Bit Quantiza-tion and Acceleration for Deep Neural Networks. Cheng Gong, Ye Lu, and Tao Li. patent No. ZL202010661226.1.</li>
+</ol>
+</div>  
+
+<div id="Funding" class="tabcontent">
+  <h2><font color="green">Major Projects & Funding</font></h2>
+  <h3><font color="green">As Leader</font></h3>
+  <ol>
+    <li><b>Adaptive Nonlinear Quantization and Acceleration for Deep Neural Networks.</b><br>
+      China Postdoctoral Science Foundation. YUAN &yen80,000: 2023 - 2025.</li>
+  </ol>
+  <h3><font color="green">As Collaborator</font></h3>
+  <ol>
+    <li><b>High-Performance Virtual Execution Engine for Smart Contracts and Trustworthy Heterogeneous Acceleration Method.</b><br>
+      National Natural Science Foundation of China. 2024 - 2027.</li>
+    <li><b>Automatic DNN Quantization and Application for Domestic Intelligent Processors.</b><br>
+      Open Project Fund of State Key Laboratory of Computer Architecture, ICT, CAS. 2020 - 2022.</li>
+    <li><b>Small Object Detection based on Deep Learning and Its Heterogeneous Computing Technology.</b><br>
+      National Natural Science Foundation of China. 2019 - 2022.</li>
+    <li><b>DNN Compression, Application, and Acceleration on Edge Devices and Cambrian Neural Processor.</b><br>
+      Open Project Fund of State Key Laboratory of Computer Architecture, ICT, CAS. 2019 - 2021.</li>
+    <li><b>Embedded DNN Model Compression Optimization and Computing Acceleration Techniques for Edge Intelligence.</b><br>
+      Tianjin Natural Science Youth Fund. 2019 - 2021.</li>
+    <li><b>Heterogeneous Internet of Things Application Service Collaborative Technology for Deep Integration.</b><br>
+      National Key Research and Development Program of China. 2019 - 2023.</li>
+  </ol>
+</div>
+
+<!-- <div id="Members" class="tabcontent">
+  <h2><font color="green">Members</font></h2>
+  <ul>
+    <li>Current members:</li>
+    <ul>
+      <li>Duc Phuc Nguyen (PhD student, 2024/01-)</li>
+    </ul>
+    <li>NTU alumni:</li>
+    <ul>
+      <li><a href="https://dapowan.github.io/">Huatao Xu</a> (co-supervised PhD student, 2021-2024)<br>PhD thesis: <u>Building Generalizable Deep Learning Solutions for Mobile Sensing</u>.</li>
+    </ul>
+  </ul>
+</div> -->
+
+<!-- <div id="Research" class="tabcontent">
+  <h2><font color="green">Recent and current research</font></h2>
+
+  <h3>1. AIoT (2017-now)</h3>
+
+  <div class="divpatch">
+    <b>Physics-directed domain adaptation</b>
+    <br><br>
+
+    <img src="images/PhyAug.png" height="260px" class="illu">
+    Run-time domain shifts are common in sensing systems designed with deep learning. 
+  </div>
+
+    <div class="divpatch">
+    <b>Moving target defense against adversarial examples</b>
+    <br><br>
+
+    <table>
+      <tr>
+	<td>
+	  <img src="images/adversarial.png" height="135px" class="illu">
+	</td>
+	<td> </td>
+	<td>
+	  <img src="images/MTD.png" height="170px" class="illu">
+	</td>
+      </tr>
+    </table>
+    Deep models are vulnerable to <a href="https://www.tensorflow.org/tutorials/generative/adversarial_fgsm">adversarial examples</a>. 
+    </div>
+
+    <div class="divpatch">
+    <b>Deep learning-based location fingerprinting</b>
+    <br><br>
+
+    <img src="images/echo.png" height="120px" class="illu">
+    This research uses a smartphone to emit a short inaudible acoustic chirp (only two milliseconds long) and record the ambient's reverberation as a fingerprint of the smartphone's location. 
+  </div>
+
+  <div class="divpatch">
+    <b>Lightweight privacy preservation for deep learning and inference</b>
+    <br><br>
+
+    <img src="images/remote_inference.png" height="160px" class="illu">
+    Resource-constrained edge devices are normally incapable of sophisticated privacy preservation mechanisms (e.g., homomorphic encryption).
+  </div>
+
+  <br><br><br>
+
+  <h3>2. Sensing for resilient system functions (2015-now)</h3>
+
+  <div class="divpatch">
+    <b>Powerline forensic time and secure clock synchronization</b>
+    <br><br>
+
+    <img src="images/PFT.png" height="200px" class="illu">
+    The frequency of the alternating current (ac) voltage of power grid has tiny fluctuations over time. 
+  </div>
+
+  <div class="divpatch">
+    <b>Wearable clock synchronization and device authentication in ambient electrostatic field</b>
+    <br><br>
+
+    <img src="images/SEP.png" height="200px" class="illu">
+    Powerlines induce an electrostatic field oscillating at the power grid frequency (e.g., 50Hz).
+  </div>
+
+  <div class="divpatch">
+    <b>Summary: Exploit power network signals for time acquisition and location sensing</b>
+
+    <br><br>
+
+    <img src="images/powerline.png" height="400px" class="illu">
+    Our research has exploited the ac voltages of a power grid, the magnetic and electrostatic fields induced by the powerlines distributed in civil infrastructures to acquire time and location information. 
+  </div>
+
+  <div class="divpatch">
+    <b>Secure data timestamping in LoRaWAN</b>
+
+    <br><br>
+
+    <img src="images/LoRaTS.png" height="400px" class="illu">
+    LoRaWAN is promising for the applications of collecting low-rate data. Data samples need timestamps to make sense.
+  </div>
+
+  <br><br><br>
+  
+  <h3>3. Thermal and energy management in data centers (2011-2014, 2017-now)</h3>
+
+  <div class="divpatch">
+    <b>TDC1: World's first trial of air free-cooled data center in tropics (completed)</b>
+
+    <br><br>
+
+    <img src="images/TDC1-sensors.png" height="200px" class="illu">
+    <img src="images/TDC1.png" height="200px" class="illu">
+    Air free cooling that utilizes natural outside air to cool the IT equipment in data center has been thought infeasible in Singapore's tropical condition with year-round high temperatures and humidity levels. 
+  </div>
+
+  <div class="divpatch">
+    <b>TDC2: A commercially ready tropical data center (ongoing)</b>
+
+    <br><br>
+
+    <img src="images/TDC2.png" height="300px" class="illu">
+    Based on our TDC1 research results, our TDC2 project sets up an actual data center with 400 servers in an enclosed and conditioned building. 
+  </div>
+
+  <br><br><br>
+    
+  <h3>4. Secure sensing and control in smart grids (2012-now)</h3>
+
+  <div class="divpatch">
+    <b>False data injection attacks on smart grid controls</b>
+    
+    <br><br>
+
+    <img src="images/AGC.png" height="200px" class="illu">
+    Recent high-profile cyber intrusions such as <a href="https://en.wikipedia.org/wiki/Stuxnet">Stuxnet</a> and <a href="https://attack.mitre.org/groups/G0035/">Dragonfly</a> have alerted us to a general class of integrity attacks called <i>false data injection</i> (FDI). 
+  </div>
+
+  <div class="divpatch">
+    <b>Time delay attacks on smart grid controls</b>
+
+    <br><br>
+
+    <img src="images/delay.png" height="200px" class="illu">
+    Delaying the network transmissions of control/sensor data or misleading the controller to use outdated sensor data is another class of integrity attacks that impose less requirements on the attacker compared with false data injection attacks. 
+
+  </div>
+</div> -->
+
+<div id="Teaching" class="tabcontent">
+  <h2><font color="green">Teaching Experience</font></h2>
+  <ul>
+    <li>High-Level Language C++ Programming for Undergraduate Students. College of Software, Nankai University, Tianjin, China.</li>
+    <li>Deep Learning for Graduate Students and International Students. College of Software, Nankai University, Tianjin, China.</li>
+  </ul>
+</div>
+
+<div id="Services" class="tabcontent">
+  <h2><font color="green">Professional services</font></h2>
+<ul>
+  <!-- <li><font color="green"><b>Associate Editor</b></font>
+    <ul>
+      <li>ACM Transactions on Reconfigurable Technology and Systems (TRETS), 2023 - present</li>
+      <li>NRF FRC Green Computing Report (NRF Singapore), 2023 - present</li>
+      <li>Frontiers in Electronics, 2023 - present</li>
+    </ul>
+  </li>
+  <li><font color="green"><b>Conference chairs</b></font>
+    <ul>
+      <li>CSCLOUD Public Chair, 2022</li>
+      <li><a href="https://cacm-eao-2022.comp.nus.edu.sg/index.html">CACM Regional Special Section on East Asia and Oceania Region</a>, 2022</li>
+      <li>ISVLSI Registration Chair, 2021</li>
+    </ul>
+  </li>	
+  <li><font color="green"><b>TPC members</b></font>
+    <ul>
+      <li>ICDCS, 2024</li>
+      <li>ICCAD, BigData, DATE, 2023</li>
+      <li>ICCAD, ICCD, AAAI, 2022</li>
+      <li>AIOTS, CCGRID, 2021</li>
+    </ul>
+  </li>
+  <li><font color="green"><b>Session/Comittee Chair</b></font>
+    <ul>
+      <li>ASP-DAC Session Chair, 2024</li>
+      <li>ISVLSI Session Chair, 2019</li>
+    </ul>
+  </li> -->
+  <li><font color="green"><b>Journal & Conference Review</b></font>
+    <ul>
+      <li> ACMMM Workshop UAVs in Multimedia (UAVM)</li>
+      <li>Chinese Conference on Pattern Recognition and Computer Vision (PRCV)</li>
+    </ul>
+  </li>
+  <!-- <li><font color="green"><b>Panel Review</b></font>
+    <ul>
+      <li>DTC Research Grant Call, Singapore, 2023</li>
+    </ul>
+  </li> -->
+</ul>
+
+<!-- I also serve as the regular reviewers for international conferences and journals.<br>
+<span id="showlink">Click <a href="#" onclick="showStuff('servicelist'); hideStuff('showlink'); showStuff('hidelink'); return false;">here</a> to show the details.</span>
+<span id="hidelink" onclick="hideStuff('servicelist'); showStuff('showlink'); hideStuff('hidelink'); return false;" style="display: none;">Click <a href="#">here</a> to hide the details.</span>
+<ul id="servicelist" style="display: none;">
+  <li><font color="green"><b>Reviewer</b></font>
+    <ul>
+      <li><b>Conferences:</b><br>
+	IEEE International Conference on Computer Communications (INFOCOM) <font color="#666666">2008 2009 2011 2012 2013 2014 2015</font><br>
+      <li><b>Journals:</b><br>	
+      </li>
+    </ul>
+  </li>
+</ul> -->
+
+</div>
+
+<!-- <div id="Publicity" class="tabcontent">
+  <h2><font color="green">(Old) News</font></h2>
+<ul>
+  <li>[06/2023] Singapore Standard 697:2023, where our research team served as a core working group member, has been announced. <a href="">IMDA news</a></li>
+</ul>
+
+<h2><font color="green">Invited talks</font></h2>
+<ol>
+  <li>"Physics-Informed Machine Learning for Sensing and Control in Cyber-Physical Systems", Croucher Foundation Advanced Study Institute 2023 - AI for Internet of Things, Jul 19, 2023, The Chinese University of Hong Kong.</li>
+</ol>
+
+<h2><font color="green">Outreach talks</font></h2>
+<ol>
+  <li>"Towards Efficient Edge AI", Technical Sharing Session on Green Computing, Nov 30th, 2023, IMDA, Singapore.</li>
+</ol>
+
+</div> -->
+
+
+<!-- <div id="Projects" class="tabcontent">
+  <h2><font color="green">Participated Projects</font></h2>
+  <ul>
+    <li><a href="" target="_blank">Towards a Resilient Smart Power Grid: A Testbed for Design, Analysis, and Validation of Power Grid Systems</a></li>
+  </ul>
+</div> -->
+
+<!-- <div id="Misc" class="tabcontent">
+  <h2><font color="green">Misc</font></h2>
+  <ul>
+    <li><a href="">Adafruit GPS Hat for NTP on Raspberry Pi</a></li>
+  </ul>
+</div> -->
+
+
+<br><br>
+
+
+<table width="100%" cellpadding="0" cellspacing="0" border="0" bgcolor="#999999"><tr><td height="1"></td></tr></table>
+
+
+
+</td></tr></table>
+</td>
+</tr>
+<tr><td bgcolor="green" height="5"></td></tr>
+</table>
+
+<br><br>
+
+
+<a href=""> </a></body>
+</html>
